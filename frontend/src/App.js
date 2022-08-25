@@ -12,7 +12,7 @@ import { useEffect } from "react";
 function App(){
   useEffect(()=> {
     axios.get("http://localhost:3232/api/client").then((response) => {
-      console.log("FUNFO");
+      console.log("FUNFs");
     })
   }, []);
   return <div className="App"></div>;
